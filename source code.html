@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <style>/* Base styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+        
+        nav ul li {
+            margin: 0 1em;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        /* Main content styles */
+        main {
+            padding: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .product-info {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .product-image {
+            width: 100%;
+            height: auto;
+        }
+        
+        .product-name {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+        
+        .product-description {
+            font-size: 1.2em;
+            margin: 1em 0;
+        }
+        
+        .product-price {
+            font-size: 1.5em;
+            color: #28a745;
+            margin-bottom: 1em;
+        }
+        
+        .cta-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 0.75em 1.5em;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+        
+        /* Footer styles */
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+       
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .product-info {
+                padding: 1em;
+            }
+        
+            .product-name {
+                font-size: 1.5em;
+            }
+        
+            .product-description {
+                font-size: 1em;
+            }
+        
+            .product-price {
+                font-size: 1.2em;
+            }
+        
+            .cta-button {
+                padding: 0.5em 1em;
+                font-size: 0.9em;
+            }
+        }
+        </style>
+</head>
+<body>
+    <header>
+        BMW- ALL Models
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        
+        <section class="product-info">
+            <!-- <h1 class="product-name">
+               </h1> -->
+            <img src="product-image1.jpeg" alt="Product Image" class="product-image">
+            <p class="product-description">X1 SUV
+                The compact, yet intrepid, four-door SUV.</p>
+            <p class="product-price"> $40,500 Starting MSRP </p>
+            <button class="cta-button">Add to Cart</button>
+        </section>
+    </main>
+    <hr>
+    <main>
+        <section class="product-info">
+
+            <!-- <h1 class="product-name">
+               </h1> -->
+            <img src="product-image2.jpeg" alt="Product Image" class="product-image">
+            <p class="product-description">X2 Coupe SUV
+                The most rebellious member of the X family.
+                 </p>
+            <p class="product-price"> $42,000 Starting MSRP </p>
+            <button class="cta-button">Add to Cart</button>
+            
+        </section>
+    </main>
+    <hr>
+    <main>
+        <section class="product-info">
+            <!-- <h1 class="product-name">
+               </h1> -->
+            <img src="product-image3.jpeg" alt="Product Image" class="product-image">
+            <p class="product-description">X3 SUV
+                An engaging SUV born for adventure.
+                
+                 </p>
+            <p class="product-price"> $46,900 Starting MSRP  </p>
+            <button class="cta-button">Add to Cart</button>
+            
+        </section>
+    </main><hr>
+    <main>  
+        
+        <section class="product-info">
+            <h1 class="product-name">X3 M SUV
+               </h1>
+            <img src="product-image4.jpeg" alt="Product Image" class="product-image">
+            <p class="product-description">X3 M SUV
+                The popular SUV, reborn with BMW M enhancements.
+                
+                 </p>
+            <p class="product-price"> $75,500 Starting MSRP  </p>
+            <button class="cta-button">Add to Cart</button>
+            
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy;  BMW All Models</p>
+    </footer>
+</body>
+</html>
